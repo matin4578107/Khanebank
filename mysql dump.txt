@@ -1,0 +1,5 @@
+mysqldump -u root -p --all-databases > allmysql.sql
+
+mysqldump -u root -p khanebank > mysql.sql
+
+mysql -u root -p khanebank < mysql.sql

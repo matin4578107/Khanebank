@@ -1,0 +1,11 @@
+select * into outfile 'C:/Users/Rahil/Desktop/OOP/output.csv' lines terminated by '\n' from users 
+
+select * into outfile 'C:/Users/Rahil/Desktop/OOP/output.csv' fields terminated by ',' from users 
+
+select * into outfile 'C:/Users/Rahil/Desktop/OOP/output.csv' from users 
+
+select * into outfile 'C:/Users/Rahil/Desktop/OOP/output.csv' lines terminated by '\n' optionally enclosed by '"' from users 
+
+load data infile 'C:/Users/Rahil/Desktop/OOP/output.csv' into table users fields terminated by ',' enclosed by '"' escaped by '"' ignore 1 rows
+
+select * into outfile 'C:/Users/Rahil/Desktop/OOP/output.csv' fields terminated by ',' optionally enclosed by '"' escaped by '-' lines terminated by '\n' from users;

@@ -1,0 +1,3 @@
+start transaction;
+insert into users (username, password, email, userlevel) values ('fatemeh', '123456', 'fatemeh@chmail.com', 5);
+commit;

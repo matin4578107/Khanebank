@@ -1,0 +1,23 @@
+{
+    "name": "rahil/oop",
+    "description": "for test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Rahil\\Oop\\": "src/",
+            "Classes\\": "Classes/",
+            "Contracts\\": "Contracts/",
+            "Traits\\": "Traits/"
+        },
+        "files": [
+            "functions/fn1.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "matin b",
+            "email": "goshvek@gmail.com"
+        }
+    ],
+    "require": {}
+}

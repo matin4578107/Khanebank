@@ -1,0 +1,2 @@
+ater table x
+add froeing key (x.id) refrences y(id);
